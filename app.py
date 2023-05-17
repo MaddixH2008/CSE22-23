@@ -21,3 +21,7 @@ def Jacob():
 def JohnN():
     return render_template('JohnN.html')
 
+@app.route('/Maddix')
+def Maddix():
+    return render_template('Maddix.html')
+
